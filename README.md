@@ -56,11 +56,12 @@ Recall
 F1-score was emphasized due to its importance in medical classification tasks, where both false positives and false negatives carry significant consequences.
 
 ## ✅ Results Summary
-Model	Benign F1	Malignant F1
-DenseNet121 + CLAHE	0.89	0.89
-ResNet50	0.88	0.89
-VGG16	0.87	0.87
-InceptionV3	Evaluated	Evaluated
+| Model                | Benign F1 | Malignant F1 |
+|:--------------------:|:---------:|:------------:|
+| DenseNet121 + CLAHE  | 0.89      | 0.89         |
+| ResNet50             | 0.88      | 0.89         |
+| VGG16                | 0.89      | 0.87         |
+| InceptionV3          | 0.78      | 0.71         |
 
 DenseNet121 with CLAHE achieved the best balanced performance across both classes
 
